@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
+  <script src="js/time-interface.js"></script>
+
+  <title>Alarm Clock</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Alarm-Clock</h1>
+    <form id="alarm-form">
+      <div class="form-group">
+        <label for="tim">Enter your alarm:</label>
+        <input id="tim" type="time">
+        <button class="btn btn-primary" type="submit">Set Alarm</button>
+      </div>
+    </form>
+  </div>
+  <h2>The time is now:</h2>
+  <h2 id="time"></h2>
+  <h3></h3>
+  <ul id="alarm-set"></ul>
+
+</body>
+
+</html>
